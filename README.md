@@ -2,7 +2,9 @@ Admin_UI project built on Next.js with Typescript and Tailwindcss
 Built by Krishna Kant
 
 
-## video presentation link- [https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing] https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing
+## video presentation link- [https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing]  https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing
+
+## App hosted vercel link- [https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing]  https://drive.google.com/file/d/17ky7HUtF5p5K5lUnFTVHFkM6T-Zuus2L/view?usp=sharing
 
 First, run the development server:
 

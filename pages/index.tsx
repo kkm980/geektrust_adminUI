@@ -30,7 +30,9 @@ export default function Home() {
     fetchJson();
   }, []);
 
-
+  useEffect(() => {
+    console.log(datas);
+  }, [datas]);
   const filterData = (text: string) => {
     setCurrent_page(1);
     setPersisting_data(datas.filter(

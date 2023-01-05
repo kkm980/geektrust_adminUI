@@ -32,8 +32,8 @@ const TableRow: React.FC<IProps> = ({
 
   return (
 
-    <div className='w-[100%] flex justify-center items-center border border-[gray] 
-    border-b-1 border-l-0 border-r-0 border-t-0 relative'
+    <div className={`w-[100%] flex justify-center items-center border border-[gray] 
+    border-b-1 border-l-0 border-r-0 border-t-0 mb-1 ease-in duration-500 relative ${delete_arr.includes(Number(id)) && "bg-[gray]"}`}
     onClick={()=>{editObj.id !=id && setEditObj({})}}
     >
        

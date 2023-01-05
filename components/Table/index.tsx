@@ -8,13 +8,18 @@ interface IProps {
    show_data:any
    fetchJson:(text:string)=>void
    deleteFun:(arr:any)=>void
+   setEditFun:(obj:any)=>void
    delete_arr:any
    setDeleteArr:any
+   editObj:any 
+   setEditObj:any
 }
  
 
 const Table: React.FC<IProps> = ({
-    show_data, fetchJson, deleteFun, delete_arr, setDeleteArr
+    show_data, fetchJson, deleteFun, 
+    setEditFun, delete_arr, setDeleteArr,
+    editObj, setEditObj
 }) => {
 
     const TableHeader = () => {
@@ -59,11 +64,14 @@ const Table: React.FC<IProps> = ({
             <InputBox width="100%" filterData={fetchJson}/>
         <TableHeader/>
         {show_data.map((e:any)=>(
-            <TableRow key={e.id} id={e.id} 
+            <TableRow key={e.id} 
+            id={e.id} 
             name={e.name} email={e.email} 
             role={e.role} delete_arr={delete_arr} 
             setDeleteArr={setDeleteArr} 
-            deleteFun={deleteFun}/>
+            deleteFun={deleteFun} setEditFun={setEditFun}
+            editObj={editObj} setEditObj={setEditObj}
+            />
         ))}
         
     </div>

@@ -68,7 +68,7 @@ const Footer: React.FC<IProps> = ({
 
 {/* generating the 5 buttons with onClick functionality */}
       {pageBtns.map((e: any) => (
-        <div className={`
+        <div key={e} className={`
          w-8 h-8 border border-[blue] flex justify-center
          items-center rounded rounded-[50%] mx-4 cursor-pointer 
             ${Math.ceil(total_posts / posts_page) < e && "bg-[gray]"}
